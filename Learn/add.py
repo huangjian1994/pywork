@@ -1,3 +1,4 @@
+# /usr/bin/env python
 #猜数字
 import random
 s = int(random.uniform(1,100))
@@ -36,3 +37,6 @@ if name == 'python':         # 判断变量否为'python'
     print ('welcome boss')    # 并输出欢迎信息
 else:
     print (name)              # 条件不成立时输出变量名称
+
+str = input("请输入：");
+print("你输入的内容是: ", str)
