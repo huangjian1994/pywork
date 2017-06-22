@@ -1,3 +1,5 @@
+
+
 # 定义函数
 def printme(str):
     print(str)
@@ -44,3 +46,11 @@ printinfo1(270, 60, 70)
 # 、global---将变量定义为全局变量。可以通过定义为全局变量，实现在函数内部改变变量值。
 # 2、一个global语句可以同时定义多个变量，如 global x, y, z。
 
+# dir()函数
+# dir() 函数一个排好序的字符串列表，内容是一个模块里定义过的名字。
+# 返回的列表容纳了在一个模块里定义的所有模块，变量和函数。如下一个简单的实例：
+
+# 导入内置math模块
+import math
+content = dir(math)
+print(content)
