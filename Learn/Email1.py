@@ -14,7 +14,7 @@ def mail():
     #try:
     msg = MIMEText('你好徐松军，这是测试', 'plain', 'utf-8')
     msg['From'] = formataddr(["173247429@qq.com", my_sender])  # 括号里的对应发件人邮箱昵称、发件人邮箱账号
-    msg['To'] = formataddr(["857170211@qq.com", my_user])  # 括号里的对应收件人邮箱昵称、收件人邮箱账号
+    msg['To'] = formataddr(["173247429@qq.com", my_user])  # 括号里的对应收件人邮箱昵称、收件人邮箱账号
     msg['Subject'] = "测试邮件"  # 邮件的主题，也可以说是标题
 
     print('-1')
