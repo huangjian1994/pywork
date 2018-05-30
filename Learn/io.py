@@ -5,7 +5,9 @@ import os
 # str1 = input("请输入：")
 # print("你输入的内容是: ", str1)
 
-
+f = open("foo.txt", 'w')
+f.write('Hello, world!123')
+f.close()
 # 读取文件
 f1 = open("foo.txt", "r+")
 len1 = f1.read(20)
